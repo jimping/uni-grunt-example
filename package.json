@@ -1,0 +1,25 @@
+{
+  "name": "grunt-example",
+  "version": "1.0.0",
+  "description": "A grunt build example",
+  "main": "index.js",
+  "scripts": {
+    "watch": "grunt watch",
+    "build": "grunt build",
+    "test": "grunt test",
+    "docs": "grunt docs",
+    "clean": "grunt clean"
+  },
+  "author": "Jonas Imping",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "envify": "^4.1.0",
+    "grunt": "^1.4.1",
+    "grunt-browserify": "^6.0.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-jshint": "^3.1.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-jsdoc": "^2.4.1"
+  }
+}
